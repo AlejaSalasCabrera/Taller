@@ -243,6 +243,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:src="@drawable/icons8_plus_math_64"
+        app:backgroundTint="@color/colorRojo"
         />
 
 </android.support.design.widget.CoordinatorLayout>
