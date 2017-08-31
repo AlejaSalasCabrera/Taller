@@ -236,7 +236,6 @@
 
     </ScrollView>
 
-
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_1"
         android:layout_width="match_parent"
