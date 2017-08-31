@@ -78,6 +78,7 @@
                     android:layout_below="@id/rl1"
                     android:padding="5dp"
                     android:background="@drawable/border"
+                    android:backgroundTint="@color/colorBeige"
                     >
 
                     <RelativeLayout

@@ -4,8 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorHeader">#40f0d0</color>
-    <color name="colorCoral">#ff1a1a</color>
+    <color name="colorCoral">#FA8072</color>
     <color name="colorCafe"> #86592d</color>
-    <color name="colorBeige"> #ffffcc</color>
+    <color name="colorBeige"> #f5f5dc</color>
     <color name="colorRojo"> #FF0000</color>
 </resources>
