@@ -21,6 +21,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/border_radius"
+                android:padding="10dp"
+                android:layout_margin="10dp"
                 >
 
                 <RelativeLayout
@@ -28,15 +30,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/colorHeader"
-                    android:layout_margin="5dp"
-                    android:padding="10dp"
                     >
 
                     <ImageView
                         android:id="@+id/img1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/img_20170829_wa0002"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/img1"
                         android:layout_margin="10dp"
                         />
                     <TextView
@@ -45,8 +45,9 @@
                         android:layout_height="wrap_content"
                         android:text="@string/str1"
                         android:layout_toRightOf="@id/img1"
-                        android:textSize="20dp"
+                        android:textSize="16sp"
                         android:textColor="@android:color/white"
+                        android:layout_marginTop="16dp"
                         />
                     <TextView
                         android:id="@+id/txt2"
@@ -54,7 +55,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/str2"
                         android:layout_toRightOf="@id/img1"
-                        android:textSize="20dp"
+                        android:textSize="16sp"
                         android:layout_below="@id/txt1"
                         android:layout_alignLeft="@id/txt1"
                         android:textColor="@android:color/white"
@@ -65,7 +66,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/str3"
                         android:layout_toRightOf="@id/img1"
-                        android:textSize="20dp"
+                        android:textSize="16sp"
                         android:layout_below="@id/txt2"
                         android:layout_alignLeft="@id/txt2"
                         android:textColor="@android:color/white"
@@ -84,10 +85,10 @@
 
                     <RelativeLayout
                         android:id="@+id/rl3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentLeft="true"
+
                         >
 
                         <TextView
@@ -95,7 +96,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/str4"
-                            android:textSize="18dp"
+                            android:textSize="12sp"
                             android:layout_alignParentTop="true"
                             android:layout_centerInParent="true"
                             />
@@ -104,25 +105,25 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/str5"
-                            android:textSize="18dp"
+                            android:textSize="12sp"
                             android:layout_below="@id/txt4"
-
+                            android:layout_centerInParent="true"
                             />
 
                     </RelativeLayout>
                     <RelativeLayout
                         android:id="@+id/rl4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_toRightOf="@id/rl3"
-                        android:layout_marginRight="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_centerHorizontal="true"
                         >
+
                         <TextView
                             android:id="@+id/txt6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/str6"
-                            android:textSize="18dp"
+                            android:textSize="12sp"
                             android:layout_alignParentTop="true"
                             android:layout_centerInParent="true"
 
@@ -132,17 +133,17 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/str7"
-                            android:textSize="18dp"
+                            android:textSize="12sp"
                             android:layout_below="@id/txt6"
+                            android:layout_centerInParent="true"
                             />
 
                     </RelativeLayout>
                     <RelativeLayout
                         android:id="@+id/rl5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_toRightOf="@id/rl4"
-                        android:layout_marginRight="10dp"
+                        android:layout_width="120dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
                         >
 
                         <TextView
@@ -150,7 +151,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/str8"
-                            android:textSize="18dp"
+                            android:textSize="12sp"
                             android:layout_alignParentTop="true"
                             android:layout_centerInParent="true"
                             />
@@ -159,8 +160,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/str9"
-                            android:textSize="18dp"
+                            android:textSize="12sp"
                             android:layout_below="@id/txt8"
+                            android:layout_centerInParent="true"
                             />
 
                     </RelativeLayout>
@@ -172,8 +174,6 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/rl2"
                     android:paddingTop="10dp"
-                    android:paddingBottom="10dp"
-
                     >
 
                     <RelativeLayout
@@ -182,7 +182,7 @@
                         android:layout_height="40dp"
                         android:background="@color/colorCafe"
                         android:layout_marginRight="5dp"
-                        android:layout_marginLeft="10dp"
+
                         >
 
                         <ImageView
@@ -219,13 +219,13 @@
                         android:background="@color/colorCoral"
                         android:layout_toRightOf="@id/rl7"
                         android:padding="5dp"
-                        android:layout_marginRight="10dp"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/str10"
-                            android:textSize="14sp"
+                            android:textSize="12sp"
                             android:layout_centerInParent="true"
                             android:textColor="@android:color/white"
                             />
@@ -245,6 +245,7 @@
         android:layout_gravity="bottom|end"
         android:src="@drawable/icons8_plus_math_64"
         app:backgroundTint="@color/colorRojo"
+        android:layout_margin="15dp"
         />
 
 </android.support.design.widget.CoordinatorLayout>
