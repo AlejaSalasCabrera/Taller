@@ -125,7 +125,7 @@
                             android:text="@string/str6"
                             android:textSize="12sp"
                             android:layout_alignParentTop="true"
-                            android:layout_marginLeft="35dp"
+                            android:layout_marginLeft="36dp"
                             />
                         <TextView
                             android:id="@+id/txt7"
